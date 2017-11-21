@@ -29,7 +29,7 @@
         <!--Orange-->
         <scene sceneID="jEb-pn-2O7">
             <objects>
-                <viewController id="JRY-0k-d1U" sceneMemberID="viewController">
+                <viewController id="JRY-0k-d1U" customClass="OrangeVC" customModule="RainbowTabs" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="YuX-kA-KFr">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
