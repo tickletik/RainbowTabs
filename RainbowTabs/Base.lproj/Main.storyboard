@@ -69,7 +69,7 @@
             </objects>
             <point key="canvasLocation" x="70" y="1714"/>
         </scene>
-        <!--Yellow-->
+        <!--Yellow Modal-->
         <scene sceneID="8LT-t0-Sik">
             <objects>
                 <viewController id="mpo-G4-pUM" sceneMemberID="viewController">
@@ -80,12 +80,13 @@
                         <viewLayoutGuide key="safeArea" id="hr1-ps-NDt"/>
                     </view>
                     <tabBarItem key="tabBarItem" title="Yellow" image="Y" selectedImage="Y Selected" id="EIf-7p-TPT"/>
+                    <navigationItem key="navigationItem" title="Yellow Modal" largeTitleDisplayMode="always" id="zdW-Je-vyp"/>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="EKL-Lc-Y22" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="-855" y="2416"/>
         </scene>
-        <!--Green-->
+        <!--I'm Green!  Wooo-->
         <scene sceneID="hrH-lm-Per">
             <objects>
                 <viewController id="FU0-XX-UxI" sceneMemberID="viewController">
@@ -96,6 +97,7 @@
                         <viewLayoutGuide key="safeArea" id="L7P-Au-y09"/>
                     </view>
                     <tabBarItem key="tabBarItem" title="Green" image="G" selectedImage="G Selected" id="ct5-L5-BdJ"/>
+                    <navigationItem key="navigationItem" title="I'm Green!  Wooo" largeTitleDisplayMode="never" id="tmr-BN-sYd"/>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="uT0-1e-ozb" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
@@ -148,6 +150,14 @@
                     <navigationBar key="navigationBar" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" id="57Y-H9-PGI">
                         <rect key="frame" x="0.0" y="20" width="375" height="44"/>
                         <autoresizingMask key="autoresizingMask"/>
+                        <textAttributes key="titleTextAttributes">
+                            <fontDescription key="fontDescription" name="ChalkboardSE-Regular" family="Chalkboard SE" pointSize="22"/>
+                            <color key="textColor" red="0.7578125" green="0.33444251060000002" blue="0.33438708340000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        </textAttributes>
+                        <textAttributes key="largeTitleTextAttributes">
+                            <fontDescription key="fontDescription" name="Chalkduster" family="Chalkduster" pointSize="22"/>
+                            <color key="textColor" red="0.44111780466767136" green="0.14133142482434113" blue="0.18374484353718568" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        </textAttributes>
                     </navigationBar>
                     <nil name="viewControllers"/>
                     <connections>
