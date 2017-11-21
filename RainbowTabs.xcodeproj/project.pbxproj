@@ -59,15 +59,23 @@
 			isa = PBXGroup;
 			children = (
 				E3AA6BC21FC336EC00E77B65 /* AppDelegate.swift */,
-				E3AA6BC41FC336EC00E77B65 /* RedViewController.swift */,
 				E3AA6BC61FC336EC00E77B65 /* Main.storyboard */,
-				E3AA6BF01FC449FE00E77B65 /* OrangeVC.swift */,
+				E3AA6BF21FC44A1500E77B65 /* Controllers */,
 				E3AA6BCC1FC336EC00E77B65 /* Assets.xcassets */,
 				E3AA6BCE1FC336EC00E77B65 /* LaunchScreen.storyboard */,
 				E3AA6BD11FC336EC00E77B65 /* Info.plist */,
 				E3AA6BC91FC336EC00E77B65 /* RainbowTabs.xcdatamodeld */,
 			);
 			path = RainbowTabs;
+			sourceTree = "<group>";
+		};
+		E3AA6BF21FC44A1500E77B65 /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				E3AA6BC41FC336EC00E77B65 /* RedViewController.swift */,
+				E3AA6BF01FC449FE00E77B65 /* OrangeVC.swift */,
+			);
+			path = Controllers;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
