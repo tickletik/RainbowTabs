@@ -21,7 +21,9 @@ class OrangeVC: UIViewController {
         // Dispose of any resources that can be recreated.
     }
     
-
+    @IBAction func orangeButton(_ sender: Any) {
+    }
+    
     /*
     // MARK: - Navigation
 

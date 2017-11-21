@@ -33,14 +33,39 @@
                     <view key="view" contentMode="scaleToFill" id="YuX-kA-KFr">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="a19-VE-a2y">
+                                <rect key="frame" x="71.5" y="310" width="231" height="47"/>
+                                <color key="backgroundColor" red="0.7578125" green="0.33444251060000002" blue="0.33438708340000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="29"/>
+                                <state key="normal" title="My Big Bad Button">
+                                    <color key="titleColor" red="0.80797216019999996" green="1" blue="0.52744817570000002" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                </state>
+                                <connections>
+                                    <action selector="orangeButton:" destination="JRY-0k-d1U" eventType="touchUpInside" id="bA1-w7-3d5"/>
+                                </connections>
+                            </button>
+                            <switch opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="750" verticalHuggingPriority="750" contentHorizontalAlignment="center" contentVerticalAlignment="center" on="YES" translatesAutoresizingMaskIntoConstraints="NO" id="5eY-5b-LVb">
+                                <rect key="frame" x="163" y="415" width="51" height="31"/>
+                            </switch>
+                        </subviews>
                         <color key="backgroundColor" red="1" green="0.78575538825760294" blue="0.29059576444555058" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstItem="5eY-5b-LVb" firstAttribute="centerX" secondItem="YuX-kA-KFr" secondAttribute="centerX" id="2Fh-Tl-PBR"/>
+                            <constraint firstItem="a19-VE-a2y" firstAttribute="centerX" secondItem="YuX-kA-KFr" secondAttribute="centerX" id="Wnd-CP-0QH"/>
+                            <constraint firstItem="a19-VE-a2y" firstAttribute="centerY" secondItem="YuX-kA-KFr" secondAttribute="centerY" id="qqF-Ks-B9R"/>
+                            <constraint firstItem="5eY-5b-LVb" firstAttribute="top" secondItem="a19-VE-a2y" secondAttribute="bottom" constant="58" id="veM-g8-LB5"/>
+                        </constraints>
                         <viewLayoutGuide key="safeArea" id="sJH-ab-pvF"/>
                     </view>
                     <tabBarItem key="tabBarItem" title="Orange" image="O" selectedImage="O Selected" id="Fls-yI-cvA"/>
+                    <connections>
+                        <segue destination="FU0-XX-UxI" kind="show" id="JCA-d5-CBz"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="1KP-Zf-kh8" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="-423" y="904"/>
+            <point key="canvasLocation" x="-487" y="1655"/>
         </scene>
         <!--Yellow-->
         <scene sceneID="8LT-t0-Sik">
@@ -56,7 +81,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="EKL-Lc-Y22" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="270" y="904"/>
+            <point key="canvasLocation" x="873" y="922"/>
         </scene>
         <!--Green-->
         <scene sceneID="hrH-lm-Per">
@@ -72,7 +97,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="uT0-1e-ozb" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="974" y="904"/>
+            <point key="canvasLocation" x="257" y="1655"/>
         </scene>
         <!--Blue-->
         <scene sceneID="WaD-og-lLL">
@@ -125,4 +150,7 @@
         <image name="Y" width="28" height="28"/>
         <image name="Y Selected" width="28" height="28"/>
     </resources>
+    <inferredMetricsTieBreakers>
+        <segue reference="JCA-d5-CBz"/>
+    </inferredMetricsTieBreakers>
 </document>
