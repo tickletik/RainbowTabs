@@ -24,7 +24,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="464.80000000000001" y="113.79310344827587"/>
+            <point key="canvasLocation" x="-1134" y="890"/>
         </scene>
         <!--Orange-->
         <scene sceneID="jEb-pn-2O7">
@@ -40,7 +40,55 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="1KP-Zf-kh8" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="465" y="868"/>
+            <point key="canvasLocation" x="-423" y="904"/>
+        </scene>
+        <!--Yellow-->
+        <scene sceneID="8LT-t0-Sik">
+            <objects>
+                <viewController id="mpo-G4-pUM" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="RqI-Ld-4g6">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" red="1" green="0.95367643832579196" blue="0.33699819360615157" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <viewLayoutGuide key="safeArea" id="hr1-ps-NDt"/>
+                    </view>
+                    <tabBarItem key="tabBarItem" title="Yellow" image="Y" selectedImage="Y Selected" id="EIf-7p-TPT"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="EKL-Lc-Y22" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="270" y="904"/>
+        </scene>
+        <!--Green-->
+        <scene sceneID="hrH-lm-Per">
+            <objects>
+                <viewController id="FU0-XX-UxI" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="Adt-le-ol4">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" red="0.44302475919863027" green="1" blue="0.37796289271480588" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <viewLayoutGuide key="safeArea" id="L7P-Au-y09"/>
+                    </view>
+                    <tabBarItem key="tabBarItem" title="Green" image="G" selectedImage="G Selected" id="ct5-L5-BdJ"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="uT0-1e-ozb" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="974" y="904"/>
+        </scene>
+        <!--Blue-->
+        <scene sceneID="WaD-og-lLL">
+            <objects>
+                <viewController id="vbo-KE-z71" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="Hjq-s1-8rC">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" red="0.32836070363624337" green="0.47971875826105337" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <viewLayoutGuide key="safeArea" id="Dac-1d-vKN"/>
+                    </view>
+                    <tabBarItem key="tabBarItem" title="Blue" image="B" selectedImage="B Selected" id="P6S-lb-Bzf"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="hFz-jh-LYl" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1666" y="904"/>
         </scene>
         <!--Tab Bar Controller-->
         <scene sceneID="MYY-GY-u4u">
@@ -54,6 +102,9 @@
                     <connections>
                         <segue destination="BYZ-38-t0r" kind="relationship" relationship="viewControllers" id="knD-to-C0q"/>
                         <segue destination="JRY-0k-d1U" kind="relationship" relationship="viewControllers" id="7d7-CH-0Gv"/>
+                        <segue destination="mpo-G4-pUM" kind="relationship" relationship="viewControllers" id="Pdi-vV-9HD"/>
+                        <segue destination="FU0-XX-UxI" kind="relationship" relationship="viewControllers" id="3NR-ib-06L"/>
+                        <segue destination="vbo-KE-z71" kind="relationship" relationship="viewControllers" id="5s3-UU-BMn"/>
                     </connections>
                 </tabBarController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="yWX-Nr-mYE" userLabel="First Responder" sceneMemberID="firstResponder"/>
@@ -62,9 +113,15 @@
         </scene>
     </scenes>
     <resources>
+        <image name="B" width="28" height="28"/>
+        <image name="B Selected" width="28" height="28"/>
+        <image name="G" width="28" height="28"/>
+        <image name="G Selected" width="28" height="28"/>
         <image name="O" width="28" height="28"/>
         <image name="O Selected" width="28" height="28"/>
         <image name="R" width="28" height="28"/>
         <image name="R Selected" width="28" height="28"/>
+        <image name="Y" width="28" height="28"/>
+        <image name="Y Selected" width="28" height="28"/>
     </resources>
 </document>
