@@ -60,12 +60,14 @@
                     </view>
                     <tabBarItem key="tabBarItem" title="Orange" image="O" selectedImage="O Selected" id="Fls-yI-cvA"/>
                     <connections>
-                        <segue destination="FU0-XX-UxI" kind="show" id="JCA-d5-CBz"/>
+                        <outlet property="switchSegues" destination="5eY-5b-LVb" id="iFI-Nd-0V6"/>
+                        <segue destination="FU0-XX-UxI" kind="show" identifier="GreenSegue" id="JCA-d5-CBz"/>
+                        <segue destination="mpo-G4-pUM" kind="presentation" identifier="YellowSegue" id="ON3-QV-bnR"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="1KP-Zf-kh8" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="-487" y="1655"/>
+            <point key="canvasLocation" x="-86" y="1021"/>
         </scene>
         <!--Yellow-->
         <scene sceneID="8LT-t0-Sik">
@@ -81,7 +83,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="EKL-Lc-Y22" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="873" y="922"/>
+            <point key="canvasLocation" x="-916" y="1798"/>
         </scene>
         <!--Green-->
         <scene sceneID="hrH-lm-Per">
@@ -97,7 +99,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="uT0-1e-ozb" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="257" y="1655"/>
+            <point key="canvasLocation" x="847" y="1089"/>
         </scene>
         <!--Blue-->
         <scene sceneID="WaD-og-lLL">
@@ -152,5 +154,6 @@
     </resources>
     <inferredMetricsTieBreakers>
         <segue reference="JCA-d5-CBz"/>
+        <segue reference="ON3-QV-bnR"/>
     </inferredMetricsTieBreakers>
 </document>

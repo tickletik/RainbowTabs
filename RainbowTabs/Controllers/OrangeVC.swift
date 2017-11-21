@@ -10,6 +10,9 @@ import UIKit
 
 class OrangeVC: UIViewController {
 
+    @IBOutlet weak var switchSegues: UISwitch!
+    
+    
     override func viewDidLoad() {
         super.viewDidLoad()
 
@@ -22,6 +25,11 @@ class OrangeVC: UIViewController {
     }
     
     @IBAction func orangeButton(_ sender: Any) {
+        if switchSegues.isOn {
+            performSegue(withIdentifier: "GreenSegue", sender: nil)
+        } else {
+            performSegue(withIdentifier: "YellowSegue", sender: nil)
+        }
     }
     
     /*
