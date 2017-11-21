@@ -13,6 +13,7 @@
 		E3AA6BCB1FC336EC00E77B65 /* RainbowTabs.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = E3AA6BC91FC336EC00E77B65 /* RainbowTabs.xcdatamodeld */; };
 		E3AA6BCD1FC336EC00E77B65 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E3AA6BCC1FC336EC00E77B65 /* Assets.xcassets */; };
 		E3AA6BD01FC336EC00E77B65 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E3AA6BCE1FC336EC00E77B65 /* LaunchScreen.storyboard */; };
+		E3AA6BF11FC449FE00E77B65 /* OrangeVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = E3AA6BF01FC449FE00E77B65 /* OrangeVC.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +25,7 @@
 		E3AA6BCC1FC336EC00E77B65 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		E3AA6BCF1FC336EC00E77B65 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		E3AA6BD11FC336EC00E77B65 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E3AA6BF01FC449FE00E77B65 /* OrangeVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OrangeVC.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -59,6 +61,7 @@
 				E3AA6BC21FC336EC00E77B65 /* AppDelegate.swift */,
 				E3AA6BC41FC336EC00E77B65 /* RedViewController.swift */,
 				E3AA6BC61FC336EC00E77B65 /* Main.storyboard */,
+				E3AA6BF01FC449FE00E77B65 /* OrangeVC.swift */,
 				E3AA6BCC1FC336EC00E77B65 /* Assets.xcassets */,
 				E3AA6BCE1FC336EC00E77B65 /* LaunchScreen.storyboard */,
 				E3AA6BD11FC336EC00E77B65 /* Info.plist */,
@@ -141,6 +144,7 @@
 			files = (
 				E3AA6BC51FC336EC00E77B65 /* RedViewController.swift in Sources */,
 				E3AA6BC31FC336EC00E77B65 /* AppDelegate.swift in Sources */,
+				E3AA6BF11FC449FE00E77B65 /* OrangeVC.swift in Sources */,
 				E3AA6BCB1FC336EC00E77B65 /* RainbowTabs.xcdatamodeld in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
