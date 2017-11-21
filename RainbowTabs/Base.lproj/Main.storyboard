@@ -10,7 +10,7 @@
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
     <scenes>
-        <!--Item-->
+        <!--Red-->
         <scene sceneID="tne-QT-ifu">
             <objects>
                 <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="RainbowTabs" customModuleProvider="target" sceneMemberID="viewController">
@@ -20,13 +20,13 @@
                         <color key="backgroundColor" red="1" green="0.11778022590864057" blue="0.17575368849951911" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                     </view>
-                    <tabBarItem key="tabBarItem" title="Item" id="RCW-Cu-byL"/>
+                    <tabBarItem key="tabBarItem" title="Red" id="RCW-Cu-byL"/>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="464.80000000000001" y="113.79310344827587"/>
         </scene>
-        <!--Item-->
+        <!--Orange-->
         <scene sceneID="jEb-pn-2O7">
             <objects>
                 <viewController id="JRY-0k-d1U" sceneMemberID="viewController">
@@ -36,7 +36,7 @@
                         <color key="backgroundColor" red="1" green="0.78575538825760294" blue="0.29059576444555058" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <viewLayoutGuide key="safeArea" id="sJH-ab-pvF"/>
                     </view>
-                    <tabBarItem key="tabBarItem" title="Item" id="Fls-yI-cvA"/>
+                    <tabBarItem key="tabBarItem" title="Orange" id="Fls-yI-cvA"/>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="1KP-Zf-kh8" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
