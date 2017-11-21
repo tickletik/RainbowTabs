@@ -8,7 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		E3AA6BC31FC336EC00E77B65 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E3AA6BC21FC336EC00E77B65 /* AppDelegate.swift */; };
-		E3AA6BC51FC336EC00E77B65 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E3AA6BC41FC336EC00E77B65 /* ViewController.swift */; };
+		E3AA6BC51FC336EC00E77B65 /* RedViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E3AA6BC41FC336EC00E77B65 /* RedViewController.swift */; };
 		E3AA6BC81FC336EC00E77B65 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E3AA6BC61FC336EC00E77B65 /* Main.storyboard */; };
 		E3AA6BCB1FC336EC00E77B65 /* RainbowTabs.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = E3AA6BC91FC336EC00E77B65 /* RainbowTabs.xcdatamodeld */; };
 		E3AA6BCD1FC336EC00E77B65 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E3AA6BCC1FC336EC00E77B65 /* Assets.xcassets */; };
@@ -18,7 +18,7 @@
 /* Begin PBXFileReference section */
 		E3AA6BBF1FC336EC00E77B65 /* RainbowTabs.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = RainbowTabs.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		E3AA6BC21FC336EC00E77B65 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		E3AA6BC41FC336EC00E77B65 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		E3AA6BC41FC336EC00E77B65 /* RedViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RedViewController.swift; sourceTree = "<group>"; };
 		E3AA6BC71FC336EC00E77B65 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		E3AA6BCA1FC336EC00E77B65 /* RainbowTabs.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = RainbowTabs.xcdatamodel; sourceTree = "<group>"; };
 		E3AA6BCC1FC336EC00E77B65 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -57,7 +57,7 @@
 			isa = PBXGroup;
 			children = (
 				E3AA6BC21FC336EC00E77B65 /* AppDelegate.swift */,
-				E3AA6BC41FC336EC00E77B65 /* ViewController.swift */,
+				E3AA6BC41FC336EC00E77B65 /* RedViewController.swift */,
 				E3AA6BC61FC336EC00E77B65 /* Main.storyboard */,
 				E3AA6BCC1FC336EC00E77B65 /* Assets.xcassets */,
 				E3AA6BCE1FC336EC00E77B65 /* LaunchScreen.storyboard */,
@@ -139,7 +139,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				E3AA6BC51FC336EC00E77B65 /* ViewController.swift in Sources */,
+				E3AA6BC51FC336EC00E77B65 /* RedViewController.swift in Sources */,
 				E3AA6BC31FC336EC00E77B65 /* AppDelegate.swift in Sources */,
 				E3AA6BCB1FC336EC00E77B65 /* RainbowTabs.xcdatamodeld in Sources */,
 			);
